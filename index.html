@@ -6,19 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator metryczki</title>
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
-    <div class="card">
-        <label for="childs-firstname">Imię dziecka: <input type="text" id="childs-firstname"></label>
-        <label for="childs-lastname">Nazwisko dziecka: <input type="text" id="childs-lastname"></label>
-        <label for="mothers-name">Imię matki: <input type="text" id="mothers-name"></label>
-        <label for="fathers-name">Imię ojca: <input type="text" id="fathers-name"></label>
-        <label for="birth-date">Data urodzenia: <input type="date" id="birth-date"></label>
-        <label for="birth-time">Godzina urodzenia: <input type="time" id="birth-time"></label>
-        <label for="childs-weight">Waga dziecka: <input type="text"></label>
-        <label for="childs-height">Wzrost dziecka: <input type="text"></label>
+    <div class="wrapper">
+        <h1 class="main-title">Generator metryczki</h1>
+        <p class="description">Aby wygenerować metryczkę wypełnij poniższy formularz i naciśnij przycisk "Wygeneruj!".
+        </p>
+        <section class="card">
+            <form action="" class="data-form">
+                <label for="childs-firstname">Imię dziecka: <input type="text" id="childs-firstname"></label>
+                <label for="childs-lastname">Nazwisko dziecka: <input type="text" id="childs-lastname"></label>
+                <label for="mothers-name">Imię matki: <input type="text" id="mothers-name"></label>
+                <label for="fathers-name">Imię ojca: <input type="text" id="fathers-name"></label>
+                <label for="birth-date">Data urodzenia: <input type="date" id="birth-date"></label>
+                <label for="birth-time">Godzina urodzenia: <input type="time" id="birth-time"></label>
+                <label for="childs-weight">Waga dziecka: <input type="text"></label>
+                <label for="childs-height">Wzrost dziecka: <input type="text"></label>
+            </form>
+            <a href="page/result.html">Wygeneruj!</a>
+        </section>
     </div>
 
 </body>
