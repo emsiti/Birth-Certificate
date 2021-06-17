@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 640px;
+}
+
+.card {
+    text-align: center;
+}
+
+.data-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data-form label {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
